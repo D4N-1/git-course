@@ -41,5 +41,5 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: ghcr.io/D4N-1/git-course/app:latest
+        tags: ghcr.io/d4n-1/git-course/app:latest
 
