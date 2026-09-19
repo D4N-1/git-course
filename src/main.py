@@ -1,3 +1,4 @@
 class Calculator:
     def sum(self, a: int, b: int) -> int:
         return a + b
+# Prueba de proteccion de ramas
