@@ -36,7 +36,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest tests.py
+          pytest test.py
 
   build_and_push:
     needs: test
@@ -62,4 +62,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/d4n-1/git-course:latest
