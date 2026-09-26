@@ -17,7 +17,8 @@ Sí. Nada entra a `main` si rompe la compilación/tests, y cualquier trabajo inc
 
 ### Mapa del Flujo Actual y Puntos de Fricción
 
-<iframe width="768" height="640" src="https://miro.com/app/board/uXjVHhif2cw=/?moveToWidget=3458764685093241834&cot=14" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+[![Tablero de Miroo - Flujo TDB](images/feat-board.png)](https://miro.com/app/board/uXjVHhif2cw=/?moveToWidget=3458764685093241834&cot=14)
+> *Haz clic en la imagen para abrir el tablero interactivo en Miro*
 
 
 ---
@@ -144,3 +145,5 @@ Sí. Nada entra a `main` si rompe la compilación/tests, y cualquier trabajo inc
 - [ ] Evaluar proveedor o método de Feature Toggles (variables de entorno `.env` vs. herramientas como ConfigCat / Unleash)
 - [ ] Implementar métricas DORA básicas (Frecuencia de Despliegue y Tiempo de Recuperación ante Fallos).
 - [ ] Optimizar la caché de dependencias en GitHub Actions para asegurar un CI de menos de 3 minutos.
+
+
